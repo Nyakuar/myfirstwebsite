@@ -1,38 +1,68 @@
-li, a, button{
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 800;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: right;
-    padding: 20px -1%;
-}
-.nav_links {
-    list-style: none;
-}
-
-.nav_links li {
-    display:inline-block;
-    padding:  20px;
-position:top left 50%;
-margin: right 40px;
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(images/jjj.jpg);
+    background-repeat: repeat-z;
    
 }
-
-.nav_links li a {
-    transition: all 04s ease 1s;
-
-}
-
-.nav_links li a:hover {
-    color: rgb(218, 77, 77);
-}
 nav{
-    font-size: 40px;
-    text-align: right;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    /* background-color: rgba(0,0,0,0.6); */
+    border-radius: 1px solid #fff;
+    /* background: rgba(0,0,0,0.7); */
+    
 }
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgb(202, 20, 148);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+h1{
+    background-color: rgb(228, 12, 210);
+    text-align: center;
+    font-size: large;
+    background-size: auto;
+    padding-top: 10px;
+    color: #fff;
+    
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: #fff; */
+}
+
+   

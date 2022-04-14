@@ -1,8 +1,10 @@
+
 body{
     height: 100vh;
     display: grid;
     place-items: center;
-    background-image: url(images/endup.jpg);
+    background-image: url(images/beaut.jpg);
+    background-repeat: repeat;
    
 }
 nav{
@@ -15,7 +17,7 @@ nav{
     box-sizing: border-box;
     /* background-color: rgba(0,0,0,0.6); */
     border-radius: 1px solid #fff;
-    background: rgba(0,0,0,0.7);
+    /* background: rgba(0,0,0,0.7); */
     
 }
 nav .logo{
@@ -49,11 +51,27 @@ nav ul li a:hover{
     border-radius: 6px;
 }
 
+p{
+    text-align: left;
+    color: beige;
+}
 h1{
     text-align: center;
-    color: #fff;
-    background-color: rgb(0, 0, 0)
+    color: rgb(255, 22, 185);
+    font-size: larger;
+    /* padding: 20px 30px; */
+    margin: 30px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    text-overflow: ellipsis;
+     margin: 30px;
 }
-.group{
-    text-align: left;
+
+p{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: 01px;
+
 }
